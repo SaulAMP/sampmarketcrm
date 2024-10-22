@@ -19,7 +19,7 @@
       "16": "icon-16.png",
       "48": "icon-48.png"
    },
-   
+   "key": "MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAm3On8v6BVTJnXS/udbOD2jc/t70CVYsTYDUYhus84RH0g72zzN3mn0Q6XFm4KRH6XoSEoDYO5Ic+oTbdlAQ1aiFBOzuYOcu8xn7rNZWX45mC+kiRSyIlVI8bEXZvF7T3BDKJ30d/kOirwS6b/XE5CdmBv6bv7XeryP7M1khOQflfrPopbnNWS+T5yzPA0ln3PnGi+xKB3YNiDO8OEXBZ3oDjSS+L6mrk8+0UaLnDLYPgkVgTVpU1soDo4woVnw5nBNA6DHLRA3ouQypqPE2JEdpEnbkpUyKou6tRJ3tkoW1mNOWrmNZak+Pu998I9fMKyajtkzuDOmW5cy7zwLsCqwIDAQAB",
    "manifest_version": 3,
    "name": "Samp Market CRM",
    "permissions": [ "tabs", "storage", "unlimitedStorage", "notifications" ],
