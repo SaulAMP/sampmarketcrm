@@ -1,0 +1,273 @@
+:root {
+  --theme-green-50: #25D366;
+  --theme-green-100: #25D366;
+  --theme-white: #fff;
+  --theme-layer-bg: #000000b0;
+}
+
+#global-loader {
+  display: none;
+}
+
+.loader-11 {
+  width: 48px;
+  height: 48px;
+  border-radius: 50%;
+  display: inline-block;
+  position: relative;
+  border: 3px solid;
+  border-color: var(--theme-white) var(--theme-white) transparent transparent;
+  -webkit-animation: rotation 1s linear infinite;
+  animation: rotation 1s linear infinite;
+}
+
+.loader-11:before {
+  width: 32px;
+  height: 32px;
+  border-color: var(--theme-white) var(--theme-white) transparent transparent;
+  -webkit-animation: rotation 1.5s linear infinite;
+  animation: rotation 1.5s linear infinite;
+}
+
+.loader-11:after,
+.loader-11:before {
+  content: '';
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  margin: auto;
+  border: 3px solid;
+  border-color: transparent transparent var(--theme-green-100) var(--theme-green-100);
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  -webkit-animation: rotationBack 0.5s linear infinite;
+  animation: rotationBack 0.5s linear infinite;
+  transform-origin: center center;
+}
+
+.loader-11:after {
+  width: 32px;
+  height: 32px;
+  border-color: var(--theme-white) var(--theme-white) transparent transparent;
+  -webkit-animation: rotation 1.5s linear infinite;
+  animation: rotation 1.5s linear infinite;
+}
+
+.loader-text {
+  text-align: center;
+  font-size: 16px;:root {
+  --theme-green-50: #06cf9c;
+  --theme-green-100: #006874;
+  --theme-white: #fff;
+  --theme-layer-bg: #000000b0;
+}
+
+#global-loader {
+  display: none;
+}
+
+.loader-11 {
+  width: 48px;
+  height: 48px;
+  border-radius: 50%;
+  display: inline-block;
+  position: relative;
+  border: 3px solid;
+  border-color: var(--theme-white) var(--theme-white) transparent transparent;
+  -webkit-animation: rotation 1s linear infinite;
+  animation: rotation 1s linear infinite;
+}
+
+.loader-11:before {
+  width: 32px;
+  height: 32px;
+  border-color: var(--theme-white) var(--theme-white) transparent transparent;
+  -webkit-animation: rotation 1.5s linear infinite;
+  animation: rotation 1.5s linear infinite;
+}
+
+.loader-11:after,
+.loader-11:before {
+  content: '';
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  margin: auto;
+  border: 3px solid;
+  border-color: transparent transparent var(--theme-green-100) var(--theme-green-100);
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  -webkit-animation: rotationBack 0.5s linear infinite;
+  animation: rotationBack 0.5s linear infinite;
+  transform-origin: center center;
+}
+
+.loader-11:after {
+  width: 32px;
+  height: 32px;
+  border-color: var(--theme-white) var(--theme-white) transparent transparent;
+  -webkit-animation: rotation 1.5s linear infinite;
+  animation: rotation 1.5s linear infinite;
+}
+
+.loader-text {
+  text-align: center;
+  font-size: 16px;
+  margin-top: 15px;
+  line-height: 22px;
+  color: var(--theme-white);
+}
+
+.loader-container {
+  text-align: center;
+}
+
+.loader-layer {
+  background-color: var(--theme-layer-bg);
+  position: fixed;
+  inset: 0;
+  z-index: 1000;
+  font-size: 80px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.loader-refresh-btn {
+  font-size: 16px;
+  border-radius: 28px;
+  background-color: var(--theme-green-100);
+  display: inline-block;
+  padding: 13px 28px;
+  line-height: 1;
+  cursor: pointer;
+  transition: 0.18s background-color ease-in-out;
+}
+
+.loader-refresh-btn:hover {
+  background-color: var(--theme-green-50);
+}
+
+@keyframes rotationBack {
+  0% {
+    transform: rotate(0deg);
+  }
+
+  100% {
+    transform: rotate(-360deg);
+  }
+}
+
+@keyframes rotation {
+  0% {
+    transform: rotate(0deg);
+  }
+
+  100% {
+    transform: rotate(360deg);
+  }
+}
+  margin-top: 15px;
+  line-height: 22px;
+  color: var(--theme-white);
+}
+
+.loader-container {
+  text-align: center;
+}
+
+.loader-layer {
+  background-color: var(--theme-layer-bg);
+  position: fixed;
+  inset: 0;
+  z-index: 1000;
+  font-size: 80px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.loader-refresh-btn {
+  font-size: 16px;
+  border-radius: 28px;
+  background-color: var(--theme-green-100);
+  display: inline-block;
+  padding: 13px 28px;
+  line-height: 1;
+  cursor: pointer;
+  transition: 0.18s background-color ease-in-out;
+}
+
+.loader-refresh-btn:hover {
+  background-color: var(--theme-green-50);
+}
+
+@keyframes rotationBack {
+  0% {
+    transform: rotate(0deg);
+  }
+
+  100% {
+    transform: rotate(-360deg);
+  }
+}
+
+@keyframes rotation {
+  0% {
+    transform: rotate(0deg);
+  }
+
+  100% {
+    transform: rotate(360deg);
+  }
+}
+/* Mejoras en botones */
+button {
+    border-radius: 8px; /* Bordes más redondeados */
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1); /* Sombra ligera */
+    transition: background-color 0.3s ease, transform 0.3s ease; /* Transiciones suaves */
+    font-family: 'Roboto', sans-serif; /* Tipografía moderna */
+}
+
+/* Animaciones en hover */
+button:hover {
+    background-color: #1ebe57; /* Cambio a un verde más oscuro en hover */
+    transform: scale(1.05); /* Efecto de agrandamiento en hover */
+}
+
+/* Tipografía mejorada */
+body, input, textarea, button {
+    font-family: 'Roboto', sans-serif; /* Usar Roboto en todo el sitio */
+    font-size: 16px; /* Ajustar el tamaño de la fuente para mejor legibilidad */
+    color: #333; /* Un gris oscuro para un buen contraste */
+}
+
+/* Sombra ligera para cajas y secciones */
+.card, .section {
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.05); /* Sombra suave para dar profundidad */
+    border-radius: 10px; /* Bordes suaves en cajas */
+    transition: all 0.3s ease; /* Transiciones suaves para una mejor UX */
+}
+
+/* Mejora en las notificaciones */
+.notification {
+    background-color: #f0f4f8; /* Fondo suave para notificaciones */
+    border-left: 4px solid #25D366; /* Indicador con el color verde */
+    padding: 16px;
+    border-radius: 8px;
+}
+
+/* Suavizando las animaciones y transiciones */
+a, button, input {
+    transition: all 0.3s ease;
+}
+
+a:hover {
+    color: #25D366; /* Verde WhatsApp en hover */
+}

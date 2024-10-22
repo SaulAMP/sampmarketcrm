@@ -1,0 +1,31 @@
+{
+   "action": {
+      "default_icon": "icon-34.png"
+   },
+   "background": {
+      "service_worker": "background.bundle.js"
+   },
+   "chrome_url_overrides": {
+   },
+   "content_scripts": [ {
+      "css": [ "content.styles.css" ],
+      "js": [ "contentScript.bundle.js", "content_tera.js", "content.js" ],
+      "matches": [ "*://*.whatsapp.com/*" ]
+   } ],
+   "description": "Con la ayuda de Samp Market CRM, puedes llevar un control de tus clientes y organizacion de tu negocio.",
+   "host_permissions": [ "*://*.whatsapp.com/*" ],
+   "icons": {
+      "128": "icon-128.png",
+      "16": "icon-16.png",
+      "48": "icon-48.png"
+   },
+   
+   "manifest_version": 3,
+   "name": "Samp Market CRM",
+   "permissions": [ "tabs", "storage", "unlimitedStorage", "notifications" ],
+   "version": "1.0.0",
+   "web_accessible_resources": [ {
+      "matches": [ "*://*.whatsapp.com/*" ],
+      "resources": [ "icon-128.png", "icon-48.png", "icon-16.png", "icon-34.png", "images/*", "style.css", "content.styles.css", "inject.styles.css", "injectScript.bundle.js", "contact_upload.csv", "contact_upload.xlsx" ]
+   } ]
+}

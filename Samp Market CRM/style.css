@@ -1,0 +1,482 @@
+/* Credit Card */
+
+.credit {
+  
+  height           : auto;
+  margin           : 0px auto 0;
+  border           : 1px solid #ddd;
+  border-radius    : 6px;
+  background-color : #fff;
+  box-shadow       : 1px 2px 3px 0px rgba(0,0,0,0.10);
+}
+
+.form-header {
+    height: 80px;
+    padding-top: 15px;
+    border-bottom: 1px solid #E1E8EE;
+    margin-bottom: 15px;
+}
+
+.form-body {
+  height: inherit;
+  padding: 0px;
+ /* background-image: url(https://tera.chat/wp-content/uploads/2023/07/fondo-4.png);*/
+  background-repeat: no-repeat;
+  background-position: top;
+  background-size: cover;
+}
+
+/* Title */
+
+.title {
+  margin    : 0;
+  color     : #5e6977;
+  font-size : 18px;
+}
+
+/* Common */
+
+.group,
+.cvv-input input,
+.format select,
+.paypal-btn,
+.proceed-btn,
+.year select {
+  height : 42px;
+}
+
+.group,
+.cvv-input #appscript,
+.format select,
+.paypal-btn,
+.proceed-btn,
+.year select {
+height : 42px;
+}
+
+
+#appscript{
+  text-align: left
+
+}
+
+.format select {
+  color   : #03A9F4;
+  opacity : .7;
+}
+
+/* Card Number */
+
+.group {
+  font-size: 16px;
+  width         : 100%;
+  margin-bottom : 20px;
+  padding-left  : 20px;
+  border        : 2px solid #9E9E9E;;
+  border-radius : 6px;
+}
+#format{
+  font-size: 20px;
+}
+/* choose Field */
+
+.format select {
+  color: #5e6977;
+  -moz-appearance     : none;
+  -webkit-appearance  : none;
+  width               : 300px;
+  margin-bottom       : 20px;
+  padding-left        : 20px;
+  border              : 2px solid #03A9F4;
+  border-radius       : 6px;
+  background-position : 85% 50%;
+}
+
+.format select {
+  float : left;
+}
+
+.year select {
+  float : right;
+}
+
+
+
+/* Buttons Section */
+
+.paypal-btn,
+.proceed-btn {
+  cursor: pointer;
+  width         : 100%;
+  border-color  : transparent;
+  border-radius : 6px;
+  font-size     : 16px;
+}
+
+.proceed-btn {
+  margin-bottom : 10px;
+  background    : #7dc855;
+}
+
+.paypal-btn a,
+.proceed-btn a {
+  text-decoration : none;
+  cursor          : pointer;
+}
+
+.proceed-btn a {
+  color : #fff;
+}
+
+
+
+
+
+html {
+  box-sizing: border-box;
+  text-align: left;
+  font-family: sans-serif;
+  background: #fafafa;
+}
+
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
+._ajzf {
+  padding: 30px 0 var(--chat-spacing) 15px !important;
+}
+
+span.ant-checkbox.ant-checkbox-checked button#btncopy {
+  display: none !important;
+}
+
+.custom-contact-search-input-section button#btncopy {
+  display: none !important;
+}
+
+.x104kibb.x1iyjqo2.x4osyxg.x1198e8h.x6ikm8r.x10wlt62.xlm9qay.x1vczkso.x1mzt3pk.xo442l1.x1ua5tub.xk50ysn h1{ color: #fff !important;}
+
+h1, h2, h3, h4, h5, h6 {
+  margin-bottom: 0em !important;
+}
+
+h4 {
+  font-size: 0.825em;
+  margin: 0;
+  line-height: 1.64;
+}
+
+.l-section {
+  width: 100%;
+  margin: -15px auto 0;
+  background: white;
+  padding: 20px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  text-align: left;
+  position: relative;
+  border-radius: 3px;
+}
+
+.c-section__heading {
+  font-size: 19px;
+  font-weight: bold;
+  margin-bottom: 1.5em;
+  float: left;
+  width: 45%;
+  display: contents;
+}
+
+.c-link {
+  color: #1976d2;
+  width: auto;
+  cursor: pointer;
+}
+
+.c-link:hover {
+  color: #0d47a1;
+}
+
+#appscript, .button, textarea, select {
+  display: block;
+  width: -webkit-fill-available;
+  margin: 5px 0;
+  padding: 7px 8px;
+  border-radius: 2px;
+  border: 1px solid #efefef;
+  outline: none;
+  -webkit-appearance: none;
+  transition: all 0.2s ease-in-out;
+}
+
+#appscript:focus {
+  border-color: #888;
+}
+
+.button {
+  background: #1a1a1a;
+  color: white;
+  cursor: pointer;
+  transition: all 0.2s ease-in-out;
+  margin-top: 1em;
+  display: inline-block;
+}
+
+button[disabled] {
+  background: #ECEFF1;
+  border: 1px solid #CFD8DC;
+  transition: all 0.2s ease-in-out;
+  cursor: not-allowed;
+  color: #B0BEC5;
+}
+
+button[disabled]:hover {
+  transition: all 0.2s ease-in-out;
+}
+
+button:hover {
+  opacity: 1;
+  transition: all 0.2s ease-in-out;
+}
+
+div#tableV label {
+  font-size: 0.925em;
+  font-weight: bold;
+  color: #1a1a1a;
+  padding-top: 0.5em;
+  display: inline-block;
+}
+
+div#details label {
+  font-size: 0.925em;
+  font-weight: bold;
+  color: #1a1a1a;
+  padding-top: 0.5em;
+  display: inline-block;
+}
+
+.form {
+  clear: both;
+  margin-top: 10px;
+}
+
+.form--disabled input, .form--disabled textarea, .form--disabled select {
+  padding-left: 0;
+  padding-top: 4px;
+  border: 0 solid #efefef;
+  background: white;
+  height: auto;
+  color: #31373b;
+  font-size: 0.8em;
+  transition: all 0.2s ease-in-out;
+}
+/*! CSS Used from: https://web.whatsapp.com/stylex-f0601c57714fe972a8c4d2c2562f8082.css */
+.cw3vfol9{word-break:break-word;}
+.l7jjieqr{display:inline-block;}
+/*! CSS Used from: https://web.whatsapp.com/app-6113f1562d101247269b.css */
+.selectable-text{-webkit-user-select:text;-moz-user-select:text;user-select:text;}
+._11JPr{visibility:visible;}
+span{font:inherit;font-size:100%;vertical-align:initial;outline:none;padding:0;margin:0;border:0;}
+*{scrollbar-color:rgba(var(--black-rgb),.2) rgba(var(--white-rgb),.1);scrollbar-width:thin;}
+::-webkit-scrollbar{width:6px!important;height:6px!important;}
+::-webkit-scrollbar-thumb{background-color:rgba(var(--black-rgb),.2);}
+::-webkit-scrollbar-track{background:rgba(var(--white-rgb),.1);}
+/*! CSS Used from: Embedded */
+*,*::before,*::after{box-sizing:border-box;}
+::selection{color:#fff;background:#316474;}
+/*! CSS Used from: Embedded */
+*,*::before,*::after{box-sizing:border-box;}
+::selection{color:#fff;background:#316474;}
+/*! CSS Used from: chrome-extension://fndginfhjinniinecnkbeldfcfachghe/style.css */
+*{box-sizing:border-box;}
+*,*:before,*:after{box-sizing:inherit;}
+/*! CSS Used from: chrome-extension://fndginfhjinniinecnkbeldfcfachghe/style.css */
+*{box-sizing:border-box;}
+*,*:before,*:after{box-sizing:inherit;}
+
+
+.textarea-class{
+  resize: none;
+  overflow: hidden;
+
+}
+.invisible {
+  display: none;
+}
+.logo_send{
+  position: relative;
+    z-index: -1000;
+  filter: grayscale(0%);
+  width: 29px !important;
+  vertical-align: baseline !important;
+}
+.logo_black{
+  position: relative;
+    z-index: -1000;
+  width: 29px !important;
+  vertical-align: baseline !important;
+  filter: grayscale(100%);
+  
+}
+
+._2xy_p._3XKXx button[disabled] {
+  border: 0px !important;
+}
+#div_tabs{
+  display: none;
+  }
+  #div_groups{
+    display: none;
+  
+  }
+  
+  #div_labels{
+    display: none;
+  
+  }
+  #buz_perso{
+    display: none;
+  
+  }
+
+  label.select {
+    padding: 0px !important;
+    margin: 20px !important;
+    width: 100%;
+}
+
+textarea#APItoken {
+  height: 36px !important;
+  width: 300px !important;
+    text-align: center !important;
+}
+
+div#editor_form_tera label {
+  width: 100%;
+}
+
+div#tableV {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+}
+
+div#tableV label {
+  width: 100%;
+}
+
+div#table{
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+}
+
+div#table label {
+  width: 100%;
+}
+
+div#tableV_tera label {
+  width: 100%;
+}
+
+div#tableV_tera{
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+}
+
+
+div#reminder_editor {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+
+div#reminder_editor label {
+  width: 100%;
+}
+
+
+
+div#editor_form_tera {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+div#contacts label {
+  width: 100%;
+}
+
+div#contacts {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+textarea.textarea-class{
+  width: 95% !important;
+  min-height: 36px !important;
+}
+
+input#datetime-local {
+  font-size: x-large;
+  width: 95%;
+  text-align: center;
+}
+
+.custom_websites {
+  display: flex;
+  align-items: center;
+}
+
+.custom_relations {
+  display: flex;
+  align-items: center;
+}
+
+.custom_section {
+  display: flex;
+  align-items: center;
+}
+
+.custom_emails {
+  display: flex;
+  align-items: center;
+}
+
+.custom_events {
+  display: flex;
+  align-items: center;
+}
+
+._2sDI2._1qj0V._1BtW0 {
+  transform: scale(0.75) !important;
+}
+
+table#tablep th {
+  padding: 0px 15px 0 0px !important;
+}
+
+table#tablep td {
+  vertical-align: bottom !important;
+}
+
+/*Kevinlr*//*
+
+::-webkit-scrollbar {
+  width: 0px;
+  }
+
+  svg#svgloading {
+    background: #fff0 !important;
+}
+
+input#appscript {
+  display: none;
+}
+/*
+div#extensioV {
+  display: none;
+}
